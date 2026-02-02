@@ -61,6 +61,7 @@ noBtn.addEventListener("mouseover", () => {
 
 yesBtn.addEventListener("click", () => {
     title.textContent = "Yippeeee!";
+    shyText.style.display = "none";
 
     catImg.src = "cat_dance.gif";
 
